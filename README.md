@@ -1,5 +1,5 @@
-# HiFi OBS Streaming
-> 📺 Stream your OBS to High Fidelity through mpegts and websockets
+# High Fidelity OBS Streaming
+> 📺 Stream your OBS to High Fidelity
 
 <img height="300" src="https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/README/screenshot.jpg"/>
 
