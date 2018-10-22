@@ -3,7 +3,7 @@
 
 <img height="300" src="https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/README/screenshot.jpg"/>
 
-This is a tutorial on how to stream your OBS output to High Fidelty. I've tried to keep it as simple as I can but **I'm working on a system to relay many people at once so that it can become even more convinient**, but for now you'll have to self host everything.
+This is a tutorial on how to stream your OBS output to High Fidelity. I've tried to keep it as simple as I can but **I'm working on a system to relay many people at once so that it can become even more convenient**, but for now you'll have to self host everything.
 
 Big thank you to [jsmpeg](https://github.com/phoboslab/jsmpeg) for making this possible and including a basic relay script.
 
@@ -13,13 +13,13 @@ Big thank you to [jsmpeg](https://github.com/phoboslab/jsmpeg) for making this p
 - Install [High Fidelity](https://highfidelity.com)
 - Install [OBS](https://obsproject.com)
 - Install [Node.js](https://nodejs.org/en) (for [Linux](https://nodejs.org/en/download/package-manager))
-- Knowledge on how to [portforward](https://portforward.com/router.htm)
+- Knowledge on how to [port forward](https://portforward.com/router.htm)
 
-## 1. Basic explaination
+## 1. Basic explanation
 
-You'll open up a script that opens a HTTP server which takes an FFmpeg output, then relays it to a WebSocket server that it'll host aswell. If you host this at home, you'll have to open up a websocket port over TCP but you won't need to open any ports for streaming to the relay server because it's running on localhost.
+You'll open up a script that opens a HTTP server which takes an FFmpeg output, then relays it to a WebSocket server that it'll host as well. If you host this at home, you'll have to open up a web socket port over TCP but you won't need to open any ports for streaming to the relay server because it's running on localhost.
 
-Then in HiFi, you'll have to spawn in an entity and change the user data to match your IP and websocket port.
+Then in HiFi, you'll have to spawn in an entity and change the user data to match your IP and web socket port.
 
 ## 2. Opening the relay server
 
