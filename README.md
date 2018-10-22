@@ -3,7 +3,7 @@
 
 <img height="300" src="https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/README/screenshot.jpg"/>
 
-This is a tutorial on how to stream your OBS output to High Fidelty. I've tried to keep it as simple as I can and I'll be writing a script to relay many people at once so that it can become even more convinient.
+This is a tutorial on how to stream your OBS output to High Fidelty. I've tried to keep it as simple as I can but **I'm working on a system to relay many people at once so that it can become even more convinient**, but for now you'll have to self host everything.
 
 Big thank you to [jsmpeg](https://github.com/phoboslab/jsmpeg) for making this possible and including a basic relay script.
 
@@ -17,9 +17,9 @@ Big thank you to [jsmpeg](https://github.com/phoboslab/jsmpeg) for making this p
 
 ## 1. Basic explaination
 
-You'll open up a script that opens a HTTP server which takes an FFmpeg output, then relays it to a Web Socket server that it'll host aswell. If you host this at home, you'll have to open up a websocket port over TCP but you won't need to open any ports for streaming to the relay server because it's running on localhost.
+You'll open up a script that opens a HTTP server which takes an FFmpeg output, then relays it to a WebSocket server that it'll host aswell. If you host this at home, you'll have to open up a websocket port over TCP but you won't need to open any ports for streaming to the relay server because it's running on localhost.
 
-Then in HiFi, you'll have to spawn in an entity and change the user data to match your IP and web socket port.
+Then in HiFi, you'll have to spawn in an entity and change the user data to match your IP and websocket port.
 
 ## 2. Opening the relay server
 
