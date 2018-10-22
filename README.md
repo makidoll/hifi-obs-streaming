@@ -24,7 +24,7 @@ Then in HiFi, you'll have to spawn in an entity and change the user data to matc
 ## 2. Opening the relay server
 
 - Download [websocket-relay.js](https://raw.githubusercontent.com/phoboslab/jsmpeg/master/websocket-relay.js)
-- Change your directory to `websocket-relay.js` and run `npm install ws`
+- Change your directory to where `websocket-relay.js` is and run `npm install ws`
 - Then run `node websocket-relay.js STREAM_NAME STREAMING_PORT WEBSOCKET_PORT`
 
 You can put this command in a `.bat` or `.sh` file too so it's easier to start up next time.
