@@ -1,25 +1,23 @@
 {
+    "Version": 93,
     "DataVersion": 0,
     "Entities": [
         {
             "clientOnly": false,
             "collisionless": true,
             "dimensions": {
-                "x": 8,
-                "y": 4.5,
+                "x": 4,
+                "y": 2.25,
                 "z": 0
             },
             "ignoreForCollisions": true,
             "lifetime": -1,
             "name": "Livestream Screen",
-            "script": "https://maki.cat/u/TPikBf.js",
-            "scriptTimestamp": 1540482912369,
+            "script": "https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/screen-entity-script.js",
             "shape": "Cube",
             "type": "Box",
             "userData": "{\"ws\":\"\"}",
             "visible": false
         }
-    ],
-    "Id": "{bf0194b9-3c95-41d3-ac70-e59030cf1ca3}",
-    "Version": 93
+    ]
 }

@@ -16,7 +16,7 @@
 			url: "https://makitsune.github.io/hifi-obs-streaming/screen.html?ws="+userData.ws,
 			maxFPS: 90,
 			alpha: 1,
-			dpi: 10,
+			dpi: 5,
 			grabbable: false,
 			position: transform.position,
 			rotation: transform.rotation,
