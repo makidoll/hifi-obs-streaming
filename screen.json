@@ -1,0 +1,25 @@
+{
+    "DataVersion": 0,
+    "Entities": [
+        {
+            "clientOnly": false,
+            "collisionless": true,
+            "dimensions": {
+                "x": 8,
+                "y": 4.5,
+                "z": 0
+            },
+            "ignoreForCollisions": true,
+            "lifetime": -1,
+            "name": "Livestream Screen",
+            "script": "https://maki.cat/u/TPikBf.js",
+            "scriptTimestamp": 1540482912369,
+            "shape": "Cube",
+            "type": "Box",
+            "userData": "{\"ws\":\"\"}",
+            "visible": false
+        }
+    ],
+    "Id": "{bf0194b9-3c95-41d3-ac70-e59030cf1ca3}",
+    "Version": 93
+}

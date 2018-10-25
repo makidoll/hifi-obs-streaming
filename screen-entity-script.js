@@ -16,7 +16,7 @@
 			url: "https://makitsune.github.io/hifi-obs-streaming/screen.html?ws="+userData.ws,
 			maxFPS: 90,
 			alpha: 1,
-			dpi: 5,
+			dpi: 10,
 			grabbable: false,
 			position: transform.position,
 			rotation: transform.rotation,
@@ -27,11 +27,7 @@
 
 		resizeInterval = Script.setInterval(function() {
 			var transform = Entities.getEntityProperties(entityID, ["dimensions"]);
-			if (
-				transform.dimensions.x != dimensions.x ||
-				transform.dimensions.y != dimensions.y ||
-				transform.dimensions.z != dimensions.z
-			) {
+			if (!Vec3.withinEpsilon(transform.dimensions, dimensions, 0.001)) {
 				Overlays.editOverlay(overlayID, {
 					dimensions: transform.dimensions
 				});
