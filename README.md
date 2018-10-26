@@ -26,13 +26,15 @@ Then in HiFi, you'll have to spawn in an entity and change the user data to matc
 - Download [websocket-relay.js](https://raw.githubusercontent.com/phoboslab/jsmpeg/master/websocket-relay.js)
 - Change your directory to where `websocket-relay.js` is and run `npm install ws`
 - Then run `node websocket-relay.js STREAM_NAME STREAM_PORT WEBSOCKET_PORT`
-- Make sure that you portforward the websocket port! Thats where people will be connecting to.
+- Make sure that you portforward the websocket port (second number)! Thats where people will be connecting to. The first port is where you connect to with OBS.
 
 You can put this command in a `.bat` or `.sh` file too so it's easier to start up next time.
 
 <img src="https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/README/step_02.png"/>
 
 ## 3. Changing your OBS settings
+
+Go to Settings => 
 
 Go to Settings => Output => Advanced => Recording 
 
