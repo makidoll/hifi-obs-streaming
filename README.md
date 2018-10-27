@@ -38,7 +38,7 @@ Go to Settings =>
 
 Go to Settings => Output => Advanced => Recording 
 
-**Carefully** copy the settings from the image below (make sure to pick **mpeg1video**, not mpeg2video) and change:
+**Carefully** copy the settings from the image below (make sure to pick **mpeg1video** and add **-bf 0**) and change:
 
 - File path or URL:
 	- If you're not hosting at home, change `127.0.0.1` to the relay server's IP
