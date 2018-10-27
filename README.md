@@ -38,14 +38,16 @@ Go to Settings =>
 
 Go to Settings => Output => Advanced => Recording 
 
-Copy the settings below but change:
+**Carefully** copy the settings from the image below (make sure to pick **mpeg1video**, not mpeg2video) and change:
 
 - File path or URL:
 	- If you're not hosting at home, change `127.0.0.1` to the relay server's IP
 	- Change `8081` to your stream port 
 	- Change `maki` to your stream name
 - Video Bitrate: Play around with what looks best
-- Rescale Output: `1280x720` or `1920x1080` works best
+	- `1000` for 480p works well
+	- `2000` for 720p works well
+- Rescale Output: `853x480` or `1280x720` works best
 - Audio Bitrate:  Play around with what sounds best
 - Audio Encoder:
 	- Use `mp2fixed` for sound
@@ -56,7 +58,5 @@ Then use Start/Stop Recording to stream!
 <img src="https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/README/step_03.png"/>
 
 ## 4. Spawning the entity in High Fidelity
-
-
 
 <img src="https://raw.githubusercontent.com/makitsune/hifi-obs-streaming/master/README/step_04.png"/>
